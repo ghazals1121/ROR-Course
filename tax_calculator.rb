@@ -43,3 +43,9 @@ rescue ArgumentError => e
   puts "Error: #{e.message}"
 end
 
+# calculator = SalesTaxCalculator.new(-50, 5)     
+# calculator = SalesTaxCalculator.new("abc", 10)  
+# calculator = SalesTaxCalculator.new(50, nil)    
+# calculator = SalesTaxCalculator.new(0, 10)     
+# calculator = SalesTaxCalculator.new(100, 0)   
+
